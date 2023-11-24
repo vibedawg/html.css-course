@@ -1,0 +1,31 @@
+.media-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: pink;
+    position: sticky;
+    margin: -9px;
+}
+.logo-media img{
+    height: 50px;
+    width: 50px;
+}
+.logo-media h1{
+    font-size: 15px;
+    margin-top: 0;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.header-media-link{
+    list-style-type: none;
+    display: inline;
+}
+
+
